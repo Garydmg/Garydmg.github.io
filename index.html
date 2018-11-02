@@ -29,11 +29,11 @@
 
                 <h2>2. A Brief Description of Queuing System Modeling</h2>
                 <h5></h5>
-                <img src="./image/Queue.jpg" class="resize">
+                <img src="./img/Queue.jpg" class="resize">
                 <h5>The figure above illustrates a typical queuing system with one server. Customers arrive in a random fashion with expected rate &#955, whereas the server processes customers at &#956. Such randomness can be approximated stocastically using either exponential or poisson distributions. For large customer flow, such as car traffic at a highway bottleneck, uniform distribution can be applied. In this case, the queuing system is deterministic. </h5>
 
                 <h2>3. Intuition</h2>
-                <img src="./image/Graph.jpg" class="resize">
+                <img src="./img/Graph.jpg" class="resize">
                 <h5>A deterministic queue with one server can be interpreted as a cumulative frequency graph shown in the figure above. We hypothesize that two counters are placed on both ends of the queuing system. One records the total customers arrived, the other records total customers served. Both counters start, capture trend, and stop simultaneously. </h5>
                 <h5>Key quantities can be derived from the figure above. The slope of red line represents arrival frequency &#955, whereas that of blue line indicates service frequency &#956. The vertical distance between two lines is the queue length, the horizontal means the time taken for a customer to exit the queue. The area enclosed by two lines is the total wait time. When divided by time elapsed, the average wait time can be computed. </h5>
                 <h5>Another meaningful intuition is that the cumulative service count (blue line) can never exceed arrival count. This is equivalent to conservation of energy, where the amount of people entering the system ("energy input") is always greater, or equal to the number exiting the system ("energy output"). The "absorbed energy" is equivalent to the number of people waiting in line. </h5>
