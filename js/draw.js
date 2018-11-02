@@ -56,7 +56,7 @@ var margin = {
     },
 
 width = 900 - margin.left - margin.right,
-height = 350 - margin.top - margin.bottom;
+height = 300 - margin.top - margin.bottom;
 
 // chart titles
 X_AXIS_TITLE = "Time Elapsed (sec)";
